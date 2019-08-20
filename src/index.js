@@ -1,12 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import firebase from 'firebase';
 import './index.css';
 import App from './App';
-import * as serviceWorker from './serviceWorker';
+//npm install --save firebase    para instalar npm
+firebase.initializeApp({
+    apiKey: "AIzaSyAWF3m9TkYSupw9DgkYZedG0FItUshNgyo",
+    authDomain: "pseudogram12.firebaseapp.com",
+    databaseURL: "https://pseudogram12.firebaseio.com",
+    projectId: "pseudogram12",
+    storageBucket: "",
+    messagingSenderId: "748661668612",
+    appId: "1:748661668612:web:615824eb19fc499e"
+});
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
