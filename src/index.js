@@ -9,10 +9,9 @@ firebase.initializeApp({
     authDomain: "pseudogram12.firebaseapp.com",
     databaseURL: "https://pseudogram12.firebaseio.com",
     projectId: "pseudogram12",
-    storageBucket: "",
+    storageBucket: "gs://pseudogram12.appspot.com/",
     messagingSenderId: "748661668612",
     appId: "1:748661668612:web:615824eb19fc499e"
 });
 
 ReactDOM.render(<App />, document.getElementById('root'));
-

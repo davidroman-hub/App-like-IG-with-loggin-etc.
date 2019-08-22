@@ -1,0 +1,10 @@
+.App{
+background: brown;
+color: white;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+height: 500px;
+font-size: 30px;
+}
